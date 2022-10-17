@@ -12,6 +12,7 @@ class Coffee:
     self.country = country
     self.roast = roast
     self.taste = taste
+    weight = 100
     
   def get_info_coffee(self):
     """
@@ -22,7 +23,7 @@ class Coffee:
     
   def choose_a_coffee(self):
     """
-    Функция которая помогает выбрать кофе   
+    Функция которая помогает выбрать кофе из имеющихся в наличии  
     
     """
     #???????
@@ -35,6 +36,6 @@ class Coffee:
     """
     ...
   
-  
-  
-
+  if __name__ == "__main__":
+    Arabica = Coffee('Kenya', 'light', 'soft', 100, 500) # инициализация экземпляра класса
+ 
